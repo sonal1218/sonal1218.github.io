@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0;
+}
+
+:root{
+    --base-color:#000000;
+    --base-font:'Manrope', sans-serif;
+    --second-color:#27333F;
+    --bg-color:#FDF4EE;
+    --bg-color2:#f4f8ff;
+    --heading-color:rgb(253, 254, 255);
+    --para-color:#ffffff;
+    --body-color:#ffffff;
+    --h1-size:64px;
+    --h2-size:44px;
+    --h3-size:24px;
+    --p-size:22px;
+}
+body{
+    font-family:  var(--base-font);
+    color:var(--body-color);
+}
+
+h1,h2,h3{
+    padding: 5px 0;
+    color:var(--heading-color);
+}
+
+h1{
+
+    font-size: var(--h1-size);
+
+}
+h2{
+
+    font-size: var(--h2-size);
+}
+
+h3{
+
+    font-size: var(--h3-size);
+
+}
+
+p{
+    padding: 10px 0;
+    line-height: 30px;
+    font-size:18px;
+}
+
+section{
+    padding: 40px 0;
+}
+.container{
+    width:500px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding:0;
+}
+main {
+    margin: 20px;
+   }
+   body {
+    background-image: url('WhatsApp Image 2023-11-17 at 00.03.10_8403a9c8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* horizontal offset, vertical offset, blur radius, color */
+}
